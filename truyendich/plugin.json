@@ -1,0 +1,32 @@
+{
+  "metadata": {
+    "name": "TruyenDichAI",
+    "author": "hieu",
+    "version": 1,
+    "source": "https://truyendich.space",
+    "description": "Truyện dịch AI từ truyendich.space",
+    "locale": "vi",
+    "language": "javascript",
+    "regexp": "truyendich\\.space/doc-truyen/(?:ai/|cv/)?[^/]+/?$",
+    "type": "novel",
+    "nsfw": false,
+    "encrypt": true
+  },
+  "script": {
+    "home": "home.js",
+    "genre": "genre.js",
+    "search": "search.js",
+    "detail": "detail.js",
+    "page": "page.js",
+    "toc": "toc.js",
+    "chap": "chap.js"
+  },
+  "config": {
+    "DOMAIN": {
+      "title": "Domain",
+      "default": "https://truyendich.space",
+      "mode": "input",
+      "format": "text"
+    }
+  }
+}
